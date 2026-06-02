@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Privacy Policy - TalkBrief</title>
-    <meta name="description" content="TalkBrief privacy policy for local transcription, recordings, summaries, Ask, subscriptions, and exports.">
+    <meta name="description" content="TalkBrief privacy policy for local recordings, transcription, cloud AI, iCloud Sync, iCloud sharing, Reminders, subscriptions, and exports.">
     <link rel="icon" href="../assets/talkbrief-icon.png">
     <link rel="stylesheet" href="../assets/styles.css">
   </head>
@@ -27,48 +27,78 @@
       <section class="page-hero">
         <p class="eyebrow">Privacy Policy</p>
         <h1>TalkBrief is designed around local recordings and clear AI requests.</h1>
-        <p class="hero-copy">Updated May 27, 2026.</p>
+        <p class="hero-copy">Updated June 2, 2026.</p>
       </section>
 
       <article class="legal">
         <section>
-          <h2>Local transcription</h2>
+          <h2>Local recordings and transcription</h2>
           <p>
-            Transcription runs locally on device when your iPhone supports TalkBrief's local transcription
-            requirements. Your audio does not need to be uploaded for local transcript generation.
+            Recordings, imported audio or video, transcripts, summaries, tags, favorites, generated tasks, and
+            task completion state are stored in the app's local container on your device unless you choose to
+            export, share, or enable iCloud Sync. Transcription runs locally on device when your iPhone supports
+            TalkBrief's local transcription requirements.
           </p>
         </section>
 
         <section>
           <h2>Cloud AI features</h2>
           <p>
-            Summaries and Ask use cloud AI. When you request these features, TalkBrief sends the relevant
-            transcript, summary, question, and selected source snippets to our AI service provider so it can
-            generate a response.
+            Summaries, Ask, and AI translation use cloud AI only when you request those features. TalkBrief sends
+            the relevant transcript, summary, custom template instructions, question, selected source snippets,
+            and output language to the TalkBrief Cloudflare Worker and AI service provider so they can generate
+            the requested response.
           </p>
         </section>
 
         <section>
-          <h2>Recordings and files</h2>
-          <p>
-            Recordings, imported audio, transcripts, summaries, tags, favorites, and task completion states are
-            stored in the app's local container on your device unless you export or share them.
-          </p>
-        </section>
-
-        <section>
-          <h2>Subscriptions</h2>
+          <h2>Usage limits and subscriptions</h2>
           <p>
             TalkBrief uses Apple's in-app purchase system for subscriptions. Apple processes purchase and payment
-            information. TalkBrief uses subscription status to unlock Pro features.
+            information. To unlock Pro features and enforce free monthly AI limits, TalkBrief may send an
+            anonymous app user ID, App Store transaction ID, App Store environment, and feature usage information
+            to the TalkBrief Cloudflare Worker. The Worker stores usage counts and entitlement status in D1; it
+            does not need to store your audio files.
+          </p>
+        </section>
+
+        <section>
+          <h2>iCloud Sync</h2>
+          <p>
+            If you turn on iCloud Sync, TalkBrief syncs recordings, audio files, transcripts, summaries, tags,
+            favorites, generated tasks, and task completion state to your private iCloud using the Apple Account
+            signed in to iCloud on this device. You can turn off iCloud Sync and delete TalkBrief cloud data from
+            Profile. Local recordings remain on your device unless you delete them.
+          </p>
+        </section>
+
+        <section>
+          <h2>iCloud sharing</h2>
+          <p>
+            When you choose Share with TalkBrief User, TalkBrief creates a read-only iCloud share for the selected
+            brief. The share can include the summary, action items, and transcript if you turn on Include
+            transcript. Audio files are not included. Anyone with the iCloud share link may be able to accept the
+            share and view the shared brief in TalkBrief, depending on Apple's iCloud sharing flow. You can stop
+            sharing through the iCloud sharing controls.
+          </p>
+        </section>
+
+        <section>
+          <h2>Reminders and exports</h2>
+          <p>
+            When you choose Add to Reminders, TalkBrief adds selected action items to Apple Reminders with the task
+            title, notes, owner, due date, source recording title, and a TalkBrief deep link. This uses the device
+            Reminders permission and does not send those tasks to TalkBrief servers. File exports and iOS share
+            sheet actions are controlled by the destination app or service you choose.
           </p>
         </section>
 
         <section>
           <h2>Your control</h2>
           <p>
-            You can delete recordings, transcripts, summaries, tags, and generated tasks from the app. Exports are
-            controlled by the iOS share sheet and any destination app you choose.
+            You can delete recordings, transcripts, summaries, tags, and generated tasks from the app. You can
+            also stop iCloud sharing, delete TalkBrief cloud data from your private iCloud, and choose whether to
+            include transcripts when sharing a brief.
           </p>
         </section>
 
@@ -83,7 +113,7 @@
         <section>
           <h2>Contact</h2>
           <p>
-            For privacy questions, contact <a href="mailto:martinlinzhiwu@gmail.com">martinlinzhiwu@gmail.com</a>.
+            For privacy questions, contact <a href="mailto:talkbrief.ai@gmail.com">talkbrief.ai@gmail.com</a>.
           </p>
         </section>
       </article>
