@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — TalkBrief</title><meta name="description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, and planned Notion and Obsidian integrations.">
+<title>Privacy Policy — TalkBrief</title><meta name="description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, Notion testing, and the planned Obsidian integration.">
 <meta name="theme-color" content="#f7f8fa"><link rel="canonical" href="https://www.talkbrief.app/privacy/">
-<meta property="og:type" content="website"><meta property="og:site_name" content="TalkBrief"><meta property="og:title" content="Privacy Policy — TalkBrief"><meta property="og:description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, and planned Notion and Obsidian integrations."><meta property="og:url" content="https://www.talkbrief.app/privacy/"><meta property="og:image" content="https://www.talkbrief.app/assets/web-workspace.jpg">
+<meta property="og:type" content="website"><meta property="og:site_name" content="TalkBrief"><meta property="og:title" content="Privacy Policy — TalkBrief"><meta property="og:description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, Notion testing, and the planned Obsidian integration."><meta property="og:url" content="https://www.talkbrief.app/privacy/"><meta property="og:image" content="https://www.talkbrief.app/assets/web-workspace.jpg">
 <meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/png" sizes="80x80" href="/assets/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/styles.css"></head>
 <body><a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><nav class="nav wrap" aria-label="Main navigation">
@@ -79,32 +79,39 @@
           </p>
         </section><section id="optional-integrations">
           <h2>Optional integrations</h2>
-          <p><strong>Notion and Obsidian integrations are planned and are not yet available.</strong>
-            The sections below describe the planned data flows. They do not mean that TalkBrief currently
-            connects to either service or sends your content to it. When available, these integrations will
-            be optional and will act only when you choose to connect or export. Neither will require a new
-            TalkBrief account.</p>
-          <p>Before enabling an integration, we will update this policy and the in-app disclosures with the
-            implemented permissions, retention periods, and disconnect and deletion controls. You can contact
-            us using the address below with privacy questions or data deletion requests.</p>
+          <p><strong>Notion is being introduced in selected TestFlight builds and is not generally released.
+            Obsidian remains planned and is not yet available.</strong> Notion also requires the test service
+            to be enabled. These integrations are optional: content is sent only when you choose to connect
+            and export. Neither requires a new TalkBrief account.</p>
+          <p>The Notion section describes the implemented test service. The Obsidian section describes its
+            planned data flow. Contact us using the address below with privacy questions or deletion requests.</p>
         </section><section id="notion">
           <h2>Notion</h2>
-          <p>The planned Notion connection uses Notion's official authorization page, where you sign in and
+          <p>The Notion connection uses Notion's official authorization page, where you sign in and
             choose the workspace and pages to share. TalkBrief will not receive your Notion password.
             Access will be limited by the permissions you grant, including access inherited by child pages.
-            The initial scope is reading, creating, and updating authorized content to support your exports;
-            comments and personal profile access are not planned.</p>
-          <p>When you choose to send a brief, its title, date, duration, tags, summary, and action items will
-            pass through TalkBrief's server to your selected Notion destination. A full transcript will be
-            included only if you choose it. The first version will not send audio attachments.</p>
-          <p>The planned service stores Notion authorization tokens on the server to make authorized requests,
-            while your device stores a protected connection credential in iOS Keychain. Connection metadata
-            and exported page identifiers, links, and content versions support opening or updating your
-            exports and avoiding duplicates. The exact retention and cleanup rules for these records and
-            any temporary processing data will be disclosed before the connection is enabled.</p>
-          <p>Removing a connection's access in Notion stops its future access. Revoking access does not itself
-            delete exported pages or necessarily remove connection records held by TalkBrief. Deleting a
-            TalkBrief recording will not automatically delete its Notion copy. Manage exported pages and
+            The integration uses read, insert, and update content permissions to support your exports;
+            it does not request comment or personal profile permissions.</p>
+          <p>When you choose to send a brief, its title, date, duration, tags, summary, and action items
+            pass through TalkBrief's Cloudflare service to your selected Notion page. A full transcript is
+            included only if you turn it on; it is off by default. Audio is not included. TalkBrief processes
+            this content for the requested export and does not store it long-term on the integration server.</p>
+          <p>The device connection credential stays in this device's iOS Keychain and is not synchronized to
+            iCloud. The server stores encrypted Notion tokens and workspace information, a hash of the device
+            credential, connection and export identifiers, content fingerprints, retry records, and rate-limit
+            counters. These support authorization, opening and safely updating exports, and avoiding duplicates.
+            There is no automatic or two-way synchronization.</p>
+          <p>Incomplete authorization expires after 10 minutes. Connections and export metadata expire after
+            180 days without successful authenticated use, at which point the service attempts to revoke access
+            and clean up the records. Export updates affect only a previously verified TalkBrief-managed region;
+            edited or unverifiable content requires your confirmation to create a separate copy.</p>
+          <p>Disconnecting in TalkBrief immediately disables the connection and removes export associations.
+            TalkBrief attempts to revoke the Notion access token. If revocation fails, the encrypted token is
+            retained only for cleanup retries. After successful revocation, a hashed retry record may remain
+            for up to 24 hours before deletion. You can also remove the connection's access in Notion. If an
+            interrupted authorization cannot be recovered, remove its access in Notion before reconnecting.</p>
+          <p>Disconnecting or revoking access does not delete exported pages. Deleting a TalkBrief recording
+            does not automatically delete its Notion copy. Manage exported pages and
             their sharing permissions in Notion; their subsequent storage and use are subject to
             <a href="https://www.notion.com/privacy">Notion's Privacy Policy</a>.</p>
         </section><section id="obsidian">
