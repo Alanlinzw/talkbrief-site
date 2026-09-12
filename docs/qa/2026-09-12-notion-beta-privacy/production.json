@@ -1,0 +1,16 @@
+{
+  "deployment": "https://b78a6c89.talkbrief-site.pages.dev",
+  "sourceCommit": "a0145bd",
+  "immutablePrivacyMatches": true,
+  "publicSectionsMatch": {
+    "notion": true,
+    "optional-integrations": true,
+    "obsidian": true
+  },
+  "routes": {
+    "/": 200,
+    "/support/": 200,
+    "/terms/": 200,
+    "/privacy/": 200
+  }
+}
