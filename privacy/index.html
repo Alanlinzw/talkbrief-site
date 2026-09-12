@@ -1,68 +1,58 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Privacy Policy - TalkBrief</title>
-    <meta name="description" content="TalkBrief privacy policy for local recordings, transcription, cloud AI, iCloud Sync, iCloud sharing, Reminders, subscriptions, and exports.">
-    <link rel="icon" href="../assets/talkbrief-icon.png">
-    <link rel="stylesheet" href="../assets/styles.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="../">
-          <img src="../assets/talkbrief-icon.png" alt="TalkBrief app icon">
-          <span>TalkBrief</span>
-        </a>
-        <div class="nav-links">
-          <a href="../">Home</a>
-          <a href="../support/">Support</a>
-          <a href="../terms/">Terms</a>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="page-hero">
-        <p class="eyebrow">Privacy Policy</p>
-        <h1>TalkBrief is designed around local recordings and clear AI requests.</h1>
-        <p class="hero-copy">Updated June 2, 2026.</p>
-      </section>
-
-      <article class="legal">
-        <section>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — TalkBrief</title><meta name="description" content="How TalkBrief handles local recordings, cloud transcription, AI requests, private iCloud Sync, and Web access.">
+<meta name="theme-color" content="#f7f8fa"><link rel="canonical" href="https://www.talkbrief.app/privacy/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="TalkBrief"><meta property="og:title" content="Privacy Policy — TalkBrief"><meta property="og:description" content="How TalkBrief handles local recordings, cloud transcription, AI requests, private iCloud Sync, and Web access."><meta property="og:url" content="https://www.talkbrief.app/privacy/"><meta property="og:image" content="https://www.talkbrief.app/assets/web-workspace.jpg">
+<meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/png" sizes="80x80" href="/assets/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/styles.css"></head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><nav class="nav wrap" aria-label="Main navigation">
+<a class="brand" href="/" aria-label="TalkBrief home"><img src="/assets/talkbrief-icon.png" width="34" height="34" alt=""><span>TalkBrief</span></a>
+<div class="nav-links"><a href="/#features">Features</a><a href="/support/" >Support</a></div>
+<a class="button nav-cta" href="https://web.talkbrief.app">TalkBrief Web <span aria-hidden="true">↗</span></a>
+</nav></header><main id="main"><section class="page-hero wrap legal-hero"><p class="eyebrow">PRIVACY POLICY</p><h1>Your privacy, explained.</h1><p class="lede">Understand what stays on your device, what uses the cloud, and the choices you control.</p><p class="updated">Last updated September 12, 2026</p></section><div class="legal-layout wrap"><nav class="contents" aria-label="Privacy Policy contents"><p>ON THIS PAGE</p><a href="#local-recordings-and-transcription">Local recordings and transcription</a><a href="#speaker-identification">Speaker identification</a><a href="#high-accuracy-cloud-transcription">High-Accuracy Cloud transcription</a><a href="#cloud-ai-features">Cloud AI features</a><a href="#usage-limits-and-subscriptions">Usage limits and subscriptions</a><a href="#icloud-sync">iCloud Sync</a><a href="#talkbrief-web">TalkBrief Web</a><a href="#icloud-sharing">iCloud sharing</a><a href="#reminders-and-exports">Reminders and exports</a><a href="#your-control">Your control</a><a href="#no-sale-of-personal-data">No sale of personal data</a><a href="#contact">Contact</a></nav><article class="legal"><section id="local-recordings-and-transcription">
           <h2>Local recordings and transcription</h2>
           <p>
             Recordings, imported audio or video, transcripts, summaries, tags, favorites, generated tasks, and
             task completion state are stored in the app's local container on your device unless you choose to
-            export, share, or enable iCloud Sync. Transcription runs locally on device when your iPhone supports
+            export, share, enable iCloud Sync, or request cloud transcription. Transcription runs locally on device when your iPhone supports
             TalkBrief's local transcription requirements.
           </p>
-        </section>
-
-        <section>
+        </section><section id="speaker-identification">
+          <h2>Speaker identification</h2>
+          <p>
+            With Apple On-Device transcription, optional speaker identification analyzes audio locally on your
+            device. The first time you use it, TalkBrief downloads speaker models from Hugging Face; no recording
+            audio is uploaded for this local mode. Speaker labels are saved with the recording and sync to your
+            private iCloud when iCloud Sync is enabled.
+          </p>
+        </section><section id="high-accuracy-cloud-transcription">
+          <h2>High-Accuracy Cloud transcription</h2>
+          <p>
+            Pro users may explicitly choose High-Accuracy Cloud transcription. TalkBrief uploads the selected
+            recording to TalkBrief Cloud, using Cloudflare infrastructure and currently Google Cloud Speech-to-Text with temporary Google Cloud Storage, to produce a transcript, word timings, and speaker labels. Temporary audio
+            is deleted from TalkBrief Cloud after processing or failure cleanup, and the provider-uploaded file is
+            deleted after transcription. The normalized transcription result is deleted from TalkBrief Cloud after
+            the app confirms download. TalkBrief keeps only minimal task, entitlement, and usage metadata needed for
+            quota, reliability, and abuse prevention; it does not keep a permanent server-side audio archive.
+          </p>
+        </section><section id="cloud-ai-features">
           <h2>Cloud AI features</h2>
           <p>
             Summaries, Ask, and AI translation use cloud AI only when you request those features. TalkBrief sends
             the relevant transcript, summary, custom template instructions, question, selected source snippets,
-            and output language to the TalkBrief Cloudflare Worker and AI service provider so they can generate
+            and output language to TalkBrief’s Cloudflare service and its AI provider (currently DeepSeek for summaries and Ask) so they can generate
             the requested response.
           </p>
-        </section>
-
-        <section>
+        </section><section id="usage-limits-and-subscriptions">
           <h2>Usage limits and subscriptions</h2>
           <p>
             TalkBrief uses Apple's in-app purchase system for subscriptions. Apple processes purchase and payment
             information. To unlock Pro features and enforce free monthly AI limits, TalkBrief may send an
-            anonymous app user ID, App Store transaction ID, App Store environment, and feature usage information
-            to the TalkBrief Cloudflare Worker. The Worker stores usage counts and entitlement status in D1; it
-            does not need to store your audio files.
+            App Store transaction ID, App Store environment, and feature usage information to the TalkBrief
+            Cloudflare service. The service stores entitlement status, cloud transcription task state, and monthly
+            usage in D1.
           </p>
-        </section>
-
-        <section>
+        </section><section id="icloud-sync">
           <h2>iCloud Sync</h2>
           <p>
             If you turn on iCloud Sync, TalkBrief syncs recordings, audio files, transcripts, summaries, tags,
@@ -70,10 +60,8 @@
             signed in to iCloud on this device. You can turn off iCloud Sync and delete TalkBrief cloud data from
             Profile. Local recordings remain on your device unless you delete them.
           </p>
-        </section>
-
-        <section>
-          <h2>iCloud sharing</h2>
+        </section><section id="talkbrief-web">
+          <h2>TalkBrief Web</h2><p>TalkBrief Web authenticates with Apple CloudKit and accesses your private iCloud database to display synced recordings and documents. Audio is requested when you choose to play a recording. Downloads and copied text are handled by your browser and the destination you choose.</p></section><section id="icloud-sharing"><h2>iCloud sharing</h2>
           <p>
             When you choose Share with TalkBrief User, TalkBrief creates a read-only iCloud share for the selected
             brief. The share can include the summary, action items, and transcript if you turn on Include
@@ -81,9 +69,7 @@
             share and view the shared brief in TalkBrief, depending on Apple's iCloud sharing flow. You can stop
             sharing through the iCloud sharing controls.
           </p>
-        </section>
-
-        <section>
+        </section><section id="reminders-and-exports">
           <h2>Reminders and exports</h2>
           <p>
             When you choose Add to Reminders, TalkBrief adds selected action items to Apple Reminders with the task
@@ -91,42 +77,22 @@
             Reminders permission and does not send those tasks to TalkBrief servers. File exports and iOS share
             sheet actions are controlled by the destination app or service you choose.
           </p>
-        </section>
-
-        <section>
+        </section><section id="your-control">
           <h2>Your control</h2>
           <p>
             You can delete recordings, transcripts, summaries, tags, and generated tasks from the app. You can
             also stop iCloud sharing, delete TalkBrief cloud data from your private iCloud, and choose whether to
             include transcripts when sharing a brief.
           </p>
-        </section>
-
-        <section>
+        </section><section id="no-sale-of-personal-data">
           <h2>No sale of personal data</h2>
           <p>
             TalkBrief does not sell your recordings, transcripts, summaries, or Ask conversations. We use submitted
             content only to provide the AI feature you requested and to protect service reliability.
           </p>
-        </section>
-
-        <section>
+        </section><section id="contact">
           <h2>Contact</h2>
           <p>
             For privacy questions, contact <a href="mailto:talkbrief.ai@gmail.com">talkbrief.ai@gmail.com</a>.
           </p>
-        </section>
-      </article>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <span>© 2026 TalkBrief. All rights reserved.</span>
-        <div class="nav-links">
-          <a href="../support/">Support</a>
-          <a href="../terms/">Terms</a>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+        </section></article></div></main><footer class="site-footer"><div class="wrap footer-top"><div><a class="brand" href="/"><img src="/assets/talkbrief-icon.png" width="30" height="30" alt=""><span>TalkBrief</span></a><p>Good conversations. Clear next steps.</p></div><nav aria-label="Footer navigation"><a href="https://web.talkbrief.app">TalkBrief Web ↗</a><a href="/support/">Support</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a></nav></div><div class="wrap footer-bottom"><span>© 2026 TalkBrief. All rights reserved.</span><span>Made for the conversations that matter.</span></div></footer></body></html>
