@@ -99,8 +99,11 @@
           <p>The device connection credential stays in this device's iOS Keychain and is not synchronized to
             iCloud. The server stores encrypted Notion tokens and workspace information, a hash of the device
             credential, connection and export identifiers, content fingerprints, retry records, and rate-limit
-            counters. These support authorization, opening and safely updating exports, and avoiding duplicates.
+            counters. The encrypted integration bot identifier helps distinguish exported notes from destination pages.
+            These support authorization, opening and safely updating exports, and avoiding duplicates.
             There is no automatic or two-way synchronization.</p>
+          <p>TalkBrief remembers your selected destination page identifier and title as a local preference for
+            the current connection. Changing this preference affects future exports; it does not move existing notes.</p>
           <p>Incomplete authorization expires after 10 minutes. Connections and export metadata expire after
             180 days without successful authenticated use, at which point the service attempts to revoke access
             and clean up the records. Export updates affect only a previously verified TalkBrief-managed region;
@@ -120,9 +123,13 @@
             date, duration, tags, summary, and action items. A transcript is included only when you enable
             it; this option is off by default. Audio is not included.</p>
           <p>You may enter a vault name, which is saved as a preference on this device. For shorter notes,
-            choosing Open in Obsidian passes the note through a local app link to the installed Obsidian app.
-            For longer notes, or whenever you prefer, Save Markdown file opens the system file picker so
-            you can choose the destination. TalkBrief does not use the clipboard for this export.</p>
+            choosing Send to Obsidian passes the note through a local app link to the installed Obsidian app.
+            Starting with version 2.8.0 build 166, sending a longer note places its complete text on this device's
+            clipboard and opens Obsidian to read it automatically. This happens only when you tap Send, replaces
+            the current clipboard content, and is marked local-only so Universal Clipboard does not synchronize it.
+            The clipboard item expires after five minutes. iOS may request permission for Obsidian to paste.</p>
+          <p>Save Markdown file remains available and opens the system file picker so you can choose the destination.
+            Earlier builds use file saving for longer notes. Simply opening the export screen does not copy content.</p>
           <p>Obsidian export does not send your note content to TalkBrief's servers and does not create
             an Obsidian cloud connection. Opening Obsidian is a handoff; confirm the saved note in Obsidian.
             Exports are independent copies and do not automatically update existing notes. Obsidian Sync,
