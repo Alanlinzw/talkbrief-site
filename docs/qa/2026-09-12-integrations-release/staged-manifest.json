@@ -1,0 +1,58 @@
+{
+  "index.html": {
+    "bytes": 8994,
+    "sha256": "d5b173f82b59739256ca54c0082492904480d43c3501cfcc2643b19cf13b4455"
+  },
+  "support/index.html": {
+    "bytes": 8375,
+    "sha256": "35e2b8d1f61b1e7adb08f7eaf82324f212683329c919ae4c43e639edb5c52c1b"
+  },
+  "terms/index.html": {
+    "bytes": 5198,
+    "sha256": "6eb25864180e932d925745de5459cef03edcd4a66b391a2a92db46ac27c52e20"
+  },
+  "privacy/index.html": {
+    "bytes": 14846,
+    "sha256": "36139cc6c999f8d7f1437fb1760cb67eb7d26b4e2057b1ef59ac4b548e87fa96"
+  },
+  "404.html": {
+    "bytes": 2425,
+    "sha256": "9d90e82035b29b3c44bf71a0a6f1b056426be140629bbc48700ed35aad7616a5"
+  },
+  "robots.txt": {
+    "bytes": 73,
+    "sha256": "8c1bcb474a93d0ba6b141501b0d6c939b85ecae8686b477cfb5aee46a4181cb6"
+  },
+  "sitemap.xml": {
+    "bytes": 325,
+    "sha256": "910bf683879ea9c2be1cbe765da4ec226bc3a25a8cfd039484be2fff1a9402b0"
+  },
+  "_headers": {
+    "bytes": 180,
+    "sha256": "9d6cc373aecf4f1595a45cb76b7fd4c7021215c0e3cccee452dace16f2c75657"
+  },
+  "assets/styles.css": {
+    "bytes": 16476,
+    "sha256": "2b84c6f1ad0625f29668cad911a821b6afefbebcc9900c134da6e0191690551e"
+  },
+  "assets/talkbrief-icon.png": {
+    "bytes": 103747,
+    "sha256": "1ae2d3ac1d8a5db5de71882698cfc4863084d34cbb877dce1e219bf5cf103273"
+  },
+  "assets/favicon.png": {
+    "bytes": 4434,
+    "sha256": "cb437e48ccf3e792a404090ff1edde31ebe9375035b0644aa16f9c9998c6b933"
+  },
+  "assets/apple-touch-icon.png": {
+    "bytes": 12983,
+    "sha256": "bc404969f4b603a319e87c9b76dc9742648fcd529da006bd3bb57541dc9c8fe2"
+  },
+  "assets/iphone-capture.png": {
+    "bytes": 581667,
+    "sha256": "8a501a79d906c6b134d36dbc9f29a7fcc3769afe46345cb955f16b2839a0b800"
+  },
+  "assets/web-workspace.jpg": {
+    "bytes": 88516,
+    "sha256": "63e0890ed1954bc85ed3ad74c3549a28c1f62c84c008a674c28cc439f15a4bb8"
+  }
+}

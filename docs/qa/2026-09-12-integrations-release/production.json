@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-09-12T05:43:52.229509+00:00",
+  "deployment": "https://08843f95.talkbrief-site.pages.dev",
+  "canonical": "https://www.talkbrief.app/privacy/",
+  "immutableMatchesLocal": true,
+  "privacySHA256": "36139cc6c999f8d7f1437fb1760cb67eb7d26b4e2057b1ef59ac4b548e87fa96",
+  "routes": [
+    {
+      "url": "https://www.talkbrief.app/",
+      "status": 200
+    },
+    {
+      "url": "https://www.talkbrief.app/support/",
+      "status": 200
+    },
+    {
+      "url": "https://www.talkbrief.app/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://www.talkbrief.app/privacy/",
+      "status": 200
+    }
+  ]
+}

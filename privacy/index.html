@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — TalkBrief</title><meta name="description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, Notion testing, and the planned Obsidian integration.">
+<title>Privacy Policy — TalkBrief</title><meta name="description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, Notion, and local Obsidian exports.">
 <meta name="theme-color" content="#f7f8fa"><link rel="canonical" href="https://www.talkbrief.app/privacy/">
-<meta property="og:type" content="website"><meta property="og:site_name" content="TalkBrief"><meta property="og:title" content="Privacy Policy — TalkBrief"><meta property="og:description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, Notion testing, and the planned Obsidian integration."><meta property="og:url" content="https://www.talkbrief.app/privacy/"><meta property="og:image" content="https://www.talkbrief.app/assets/web-workspace.jpg">
+<meta property="og:type" content="website"><meta property="og:site_name" content="TalkBrief"><meta property="og:title" content="Privacy Policy — TalkBrief"><meta property="og:description" content="How TalkBrief handles recordings, cloud services, iCloud, Web access, Notion, and local Obsidian exports."><meta property="og:url" content="https://www.talkbrief.app/privacy/"><meta property="og:image" content="https://www.talkbrief.app/assets/web-workspace.jpg">
 <meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/png" sizes="80x80" href="/assets/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/assets/styles.css"></head>
 <body><a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><nav class="nav wrap" aria-label="Main navigation">
@@ -79,12 +79,12 @@
           </p>
         </section><section id="optional-integrations">
           <h2>Optional integrations</h2>
-          <p><strong>Notion is being introduced in selected TestFlight builds and is not generally released.
-            Obsidian remains planned and is not yet available.</strong> Notion also requires the test service
-            to be enabled. These integrations are optional: content is sent only when you choose to connect
-            and export. Neither requires a new TalkBrief account.</p>
-          <p>The Notion section describes the implemented test service. The Obsidian section describes its
-            planned data flow. Contact us using the address below with privacy questions or deletion requests.</p>
+          <p>Notion and Obsidian are optional export destinations. Content is sent only when you choose
+            to export. Neither requires a new TalkBrief account. Notion uses an authorized workspace
+            connection; Obsidian uses a local app link or a Markdown file you save.</p>
+          <p>These sections describe the integrations in TalkBrief 2.8.0 and later. Feature availability
+            depends on your installed app version. Contact us using the address below with privacy
+            questions or deletion requests.</p>
         </section><section id="notion">
           <h2>Notion</h2>
           <p>The Notion connection uses Notion's official authorization page, where you sign in and
@@ -116,17 +116,20 @@
             <a href="https://www.notion.com/privacy">Notion's Privacy Policy</a>.</p>
         </section><section id="obsidian">
           <h2>Obsidian</h2>
-          <p>The planned Obsidian integration creates Markdown notes in a vault or folder you choose, using
-            a local app link or a Markdown file export. Notes may include a title, date, tags, source recording
-            identifier, summary, action items, and a transcript if you choose to include it. The initial
-            integration will not attach audio or provide two-way synchronization.</p>
-          <p>This local export is not intended to send your note content through TalkBrief's servers.
-            If clipboard transfer is used for long notes, it will be explained before copying; copied text
-            may also be accessible to other apps or devices through your clipboard settings. Obsidian Sync,
-            iCloud Drive, or other services you choose may separately sync the exported files under their
+          <p>Obsidian export creates a Markdown note on your device containing the recording title,
+            date, duration, tags, summary, and action items. A transcript is included only when you enable
+            it; this option is off by default. Audio is not included.</p>
+          <p>You may enter a vault name, which is saved as a preference on this device. For shorter notes,
+            choosing Open in Obsidian passes the note through a local app link to the installed Obsidian app.
+            For longer notes, or whenever you prefer, Save Markdown file opens the system file picker so
+            you can choose the destination. TalkBrief does not use the clipboard for this export.</p>
+          <p>Obsidian export does not send your note content to TalkBrief's servers and does not create
+            an Obsidian cloud connection. Opening Obsidian is a handoff; confirm the saved note in Obsidian.
+            Exports are independent copies and do not automatically update existing notes. Obsidian Sync,
+            iCloud Drive, or other storage providers you choose may separately sync the files under their
             own settings and policies. See <a href="https://obsidian.md/privacy">Obsidian's Privacy Policy</a>.</p>
-          <p>Deleting the source in TalkBrief will not delete the exported Markdown note or its synced copies.
-            Manage or delete those copies in your vault and any sync service you use.</p>
+          <p>Deleting the source in TalkBrief does not delete exported notes or their synced copies.
+            Manage or delete those files in your vault and any storage service you use.</p>
         </section><section id="your-control">
           <h2>Your control</h2>
           <p>
