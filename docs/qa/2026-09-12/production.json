@@ -1,0 +1,224 @@
+{
+  "verified_utc": "2026-09-12T03:05:58.959955+00:00",
+  "files": [
+    {
+      "file": "index.html",
+      "url": "https://www.talkbrief.app/?verify=1789182335",
+      "status": 200,
+      "bytes": 8994,
+      "sha256": "d5b173f82b59739256ca54c0082492904480d43c3501cfcc2643b19cf13b4455",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "support/index.html",
+      "url": "https://www.talkbrief.app/support/?verify=1789182335",
+      "status": 200,
+      "bytes": 8653,
+      "sha256": "2dad1e9dc797105a501800318048552ad987b9b1bd7201532e10ef5018afc2af",
+      "raw_hash_matches": false,
+      "email_protection_normalized_matches": true,
+      "immutable_deployment_hash_matches": true,
+      "matches": true
+    },
+    {
+      "file": "terms/index.html",
+      "url": "https://www.talkbrief.app/terms/?verify=1789182335",
+      "status": 200,
+      "bytes": 5447,
+      "sha256": "c7d7a762f9c0e79f3147a543663b683237e2a7fdf122b3a1fb44bf8d7f30a9b6",
+      "raw_hash_matches": false,
+      "email_protection_normalized_matches": true,
+      "immutable_deployment_hash_matches": true,
+      "matches": true
+    },
+    {
+      "file": "privacy/index.html",
+      "url": "https://www.talkbrief.app/privacy/?verify=1789182335",
+      "status": 200,
+      "bytes": 9924,
+      "sha256": "914cc839e534630637e231677aea33bbb80395e206e6058c4ad407320c354093",
+      "raw_hash_matches": false,
+      "email_protection_normalized_matches": true,
+      "immutable_deployment_hash_matches": true,
+      "matches": true
+    },
+    {
+      "file": "404.html",
+      "url": "https://www.talkbrief.app/404?verify=1789182335",
+      "status": 200,
+      "bytes": 2425,
+      "sha256": "9d90e82035b29b3c44bf71a0a6f1b056426be140629bbc48700ed35aad7616a5",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://www.talkbrief.app/robots.txt?verify=1789182335",
+      "status": 200,
+      "bytes": 73,
+      "sha256": "8c1bcb474a93d0ba6b141501b0d6c939b85ecae8686b477cfb5aee46a4181cb6",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.talkbrief.app/sitemap.xml?verify=1789182335",
+      "status": 200,
+      "bytes": 325,
+      "sha256": "910bf683879ea9c2be1cbe765da4ec226bc3a25a8cfd039484be2fff1a9402b0",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "assets/styles.css",
+      "url": "https://www.talkbrief.app/assets/styles.css?verify=1789182335",
+      "status": 200,
+      "bytes": 16476,
+      "sha256": "2b84c6f1ad0625f29668cad911a821b6afefbebcc9900c134da6e0191690551e",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "assets/talkbrief-icon.png",
+      "url": "https://www.talkbrief.app/assets/talkbrief-icon.png?verify=1789182335",
+      "status": 200,
+      "bytes": 103747,
+      "sha256": "1ae2d3ac1d8a5db5de71882698cfc4863084d34cbb877dce1e219bf5cf103273",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "assets/favicon.png",
+      "url": "https://www.talkbrief.app/assets/favicon.png?verify=1789182335",
+      "status": 200,
+      "bytes": 4434,
+      "sha256": "cb437e48ccf3e792a404090ff1edde31ebe9375035b0644aa16f9c9998c6b933",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "assets/apple-touch-icon.png",
+      "url": "https://www.talkbrief.app/assets/apple-touch-icon.png?verify=1789182335",
+      "status": 200,
+      "bytes": 12983,
+      "sha256": "bc404969f4b603a319e87c9b76dc9742648fcd529da006bd3bb57541dc9c8fe2",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "assets/iphone-capture.png",
+      "url": "https://www.talkbrief.app/assets/iphone-capture.png?verify=1789182335",
+      "status": 200,
+      "bytes": 581667,
+      "sha256": "8a501a79d906c6b134d36dbc9f29a7fcc3769afe46345cb955f16b2839a0b800",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    },
+    {
+      "file": "assets/web-workspace.jpg",
+      "url": "https://www.talkbrief.app/assets/web-workspace.jpg?verify=1789182335",
+      "status": 200,
+      "bytes": 88516,
+      "sha256": "63e0890ed1954bc85ed3ad74c3549a28c1f62c84c008a674c28cc439f15a4bb8",
+      "raw_hash_matches": true,
+      "email_protection_normalized_matches": false,
+      "immutable_deployment_hash_matches": null,
+      "matches": true
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "custom404": null,
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "/support/",
+      "status": 200,
+      "custom404": null,
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "custom404": null,
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "custom404": null,
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "/missing-page-verification",
+      "status": 404,
+      "custom404": true,
+      "nosniff": "nosniff"
+    }
+  ],
+  "web": {
+    "status": 200,
+    "url": "https://web.talkbrief.app/",
+    "unchanged_deployment": true
+  },
+  "deployment": {
+    "id": "ae66ecf6-58bc-4802-bdff-cd5a480aeb2d",
+    "url": "https://ae66ecf6.talkbrief-site.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-09-12T03:02:13.956559Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "fca7680b7c9aa25fc3fd7aaf90b8d6428739dd92",
+        "commit_message": "Refresh cached website logos after updating the app icon",
+        "commit_dirty": false
+      }
+    }
+  },
+  "custom_domain": {
+    "id": "f4e18674-03d9-4a83-8f81-8453b1a5409c",
+    "domain_id": "f4e18674-03d9-4a83-8f81-8453b1a5409c",
+    "name": "www.talkbrief.app",
+    "status": "active",
+    "verification_data": {
+      "status": "active"
+    },
+    "validation_data": {
+      "status": "active",
+      "method": "http"
+    },
+    "certificate_authority": "google",
+    "zone_tag": "6be7bcb15f1d33361707e01887e261a9",
+    "created_on": "2026-09-12T02:57:08.517297Z"
+  },
+  "all_files_verified": true,
+  "raw_hash_match_count": 10,
+  "edge_email_transform_count": 3
+}
