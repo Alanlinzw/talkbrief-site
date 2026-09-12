@@ -1,0 +1,24 @@
+[
+  {
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "sections": 15,
+    "brokenAnchors": 0,
+    "planned": true,
+    "notion": true,
+    "obsidian": true,
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "client": 1440,
+    "scroll": 1440,
+    "sections": 15,
+    "brokenAnchors": 0,
+    "planned": true,
+    "notion": true,
+    "obsidian": true,
+    "brokenImages": 0
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "deployment": "https://eb40282d.talkbrief-site.pages.dev",
+  "immutable_privacy_matches": true,
+  "public_files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "support/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "terms/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "privacy/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "404.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/styles.css",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/talkbrief-icon.png",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/favicon.png",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/iphone-capture.png",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/web-workspace.jpg",
+      "status": 200,
+      "matches": true
+    }
+  ]
+}
