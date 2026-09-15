@@ -9,7 +9,7 @@
 <a class="brand" href="/" aria-label="TalkBrief home"><img src="/assets/talkbrief-icon.png?v=20260914c" width="34" height="34" alt=""><span>TalkBrief</span></a>
 <div class="nav-links"><a href="/#features">Features</a><a href="/support/" >Support</a></div>
 <a class="button nav-cta" href="https://web.talkbrief.app">TalkBrief Web <span aria-hidden="true">↗</span></a>
-</nav></header><main id="main"><section class="page-hero wrap legal-hero"><p class="eyebrow">PRIVACY POLICY</p><h1>Your privacy, explained.</h1><p class="lede">Understand what stays on your device, what uses the cloud, and the choices you control.</p><p class="updated">Last updated September 14, 2026</p></section><div class="legal-layout wrap"><nav class="contents" aria-label="Privacy Policy contents"><p>ON THIS PAGE</p><a href="#local-recordings-and-transcription">Local recordings and transcription</a><a href="#speaker-identification">Speaker identification</a><a href="#high-accuracy-cloud-transcription">High-Accuracy Cloud transcription</a><a href="#cloud-ai-features">Cloud AI features</a><a href="#usage-limits-and-subscriptions">Usage limits and subscriptions</a><a href="#icloud-sync">iCloud Sync</a><a href="#talkbrief-web">TalkBrief Web</a><a href="#icloud-sharing">iCloud sharing</a><a href="#reminders-and-exports">Reminders and exports</a><a href="#optional-integrations">Optional integrations</a><a href="#notion">Notion</a><a href="#obsidian">Obsidian</a><a href="#google-docs">Google Docs</a><a href="#slack">Slack</a><a href="#microsoft-onenote">Microsoft OneNote</a><a href="#integration-requests">Integration requests</a><a href="#your-control">Your control</a><a href="#no-sale-of-personal-data">No sale of personal data</a><a href="#contact">Contact</a></nav><article class="legal"><section id="local-recordings-and-transcription">
+</nav></header><main id="main"><section class="page-hero wrap legal-hero"><p class="eyebrow">PRIVACY POLICY</p><h1>Your privacy, explained.</h1><p class="lede">Understand what stays on your device, what uses the cloud, and the choices you control.</p><p class="updated">Last updated September 15, 2026</p></section><div class="legal-layout wrap"><nav class="contents" aria-label="Privacy Policy contents"><p>ON THIS PAGE</p><a href="#local-recordings-and-transcription">Local recordings and transcription</a><a href="#speaker-identification">Speaker identification</a><a href="#high-accuracy-cloud-transcription">High-Accuracy Cloud transcription</a><a href="#cloud-ai-features">Cloud AI features</a><a href="#usage-limits-and-subscriptions">Usage limits and subscriptions</a><a href="#icloud-sync">iCloud Sync</a><a href="#talkbrief-web">TalkBrief Web</a><a href="#icloud-sharing">iCloud sharing</a><a href="#reminders-and-exports">Reminders and exports</a><a href="#optional-integrations">Optional integrations</a><a href="#notion">Notion</a><a href="#obsidian">Obsidian</a><a href="#google-docs">Google Docs</a><a href="#slack">Slack</a><a href="#discord">Discord</a><a href="#microsoft-onenote">Microsoft OneNote</a><a href="#integration-requests">Integration requests</a><a href="#your-control">Your control</a><a href="#no-sale-of-personal-data">No sale of personal data</a><a href="#contact">Contact</a></nav><article class="legal"><section id="local-recordings-and-transcription">
           <h2>Local recordings and transcription</h2>
           <p>
             Recordings, imported audio or video, transcripts, summaries, tags, favorites, generated tasks, and
@@ -79,10 +79,10 @@
           </p>
         </section><section id="optional-integrations">
           <h2>Optional integrations</h2>
-          <p>Notion, Obsidian, Google Docs, Slack, and Microsoft OneNote are optional export destinations. Content is sent only when you choose
+          <p>Notion, Obsidian, Google Docs, Slack, Discord, and Microsoft OneNote are optional export destinations. Content is sent only when you choose
             to export. None requires a new TalkBrief account. Notion uses an authorized workspace connection;
             Obsidian uses a local app link or a Markdown file you save; Google Docs uses a device-held Google connection;
-            Slack uses a connection to one channel you select; OneNote uses a device-held Microsoft connection.</p>
+            Slack and Discord each use a connection to one channel you select; OneNote uses a device-held Microsoft connection.</p>
           <p>Notion and Obsidian are available in TalkBrief 2.8.0 and later; Google Docs and Slack are available in
             TalkBrief 2.9.0 and later. Microsoft OneNote is included in TalkBrief 2.10.0 and later. Feature availability depends on your installed app version. Contact
             us using the address below with privacy questions or deletion requests.</p>
@@ -175,6 +175,24 @@
             Disconnect asks Slack to revoke the token and webhook, then removes the local credential. Existing Slack
             messages remain in the channel. Their subsequent storage and use are subject to
             <a href="https://slack.com/trust/privacy/privacy-policy">Slack's Privacy Policy</a>.</p>
+        </section><section id="discord">
+          <h2>Discord</h2>
+          <p>Discord export uses Discord's authorization page to create an incoming webhook for one server
+            channel you select. TalkBrief does not receive your Discord password and requests only the
+            <code>webhook.incoming</code> scope.</p>
+          <p>TalkBrief's Cloudflare Worker performs the confidential authorization-code exchange and holds the
+            encrypted webhook result for no more than 10 minutes while your device claims it. Recording,
+            transcript, summary, and export content do not pass through this Worker, and Discord OAuth access
+            and refresh tokens are discarded after the webhook is validated.</p>
+          <p>The webhook ID and token, server ID, and channel ID are stored in this device's iOS Keychain and are
+            not synchronized through iCloud. When you choose Post to Discord, the recording title, date, duration,
+            tags, summary, key points, action items, and follow-ups pass directly from this device to the selected
+            Discord channel. Audio and transcript are not included. TalkBrief disables mentions in the generated
+            message. Channel members may view, copy, or retain the post under the server's policies.</p>
+          <p>Changing channels keeps the current connection active until the replacement is complete, then deletes
+            the old webhook. Disconnect deletes the webhook and removes the local credential. Existing Discord
+            messages remain in the channel. Their subsequent storage and use are subject to
+            <a href="https://discord.com/privacy">Discord's Privacy Policy</a>.</p>
         </section><section id="microsoft-onenote">
           <h2>Microsoft OneNote</h2>
           <p>OneNote export uses Microsoft's native authentication library and requests the delegated
