@@ -9,7 +9,19 @@
 <a class="brand" href="/" aria-label="TalkBrief home"><img src="/assets/talkbrief-icon.png?v=20260914c" width="34" height="34" alt=""><span>TalkBrief</span></a>
 <div class="nav-links"><a href="/#features">Features</a><a href="/support/" >Support</a></div>
 <a class="button nav-cta" href="https://web.talkbrief.app">TalkBrief Web <span aria-hidden="true">↗</span></a>
-</nav></header><main id="main"><section class="page-hero wrap legal-hero"><p class="eyebrow">PRIVACY POLICY</p><h1>Your privacy, explained.</h1><p class="lede">Understand what stays on your device, what uses the cloud, and the choices you control.</p><p class="updated">Last updated September 15, 2026</p></section><div class="legal-layout wrap"><nav class="contents" aria-label="Privacy Policy contents"><p>ON THIS PAGE</p><a href="#local-recordings-and-transcription">Local recordings and transcription</a><a href="#speaker-identification">Speaker identification</a><a href="#high-accuracy-cloud-transcription">High-Accuracy Cloud transcription</a><a href="#cloud-ai-features">Cloud AI features</a><a href="#usage-limits-and-subscriptions">Usage limits and subscriptions</a><a href="#icloud-sync">iCloud Sync</a><a href="#talkbrief-web">TalkBrief Web</a><a href="#icloud-sharing">iCloud sharing</a><a href="#reminders-and-exports">Reminders and exports</a><a href="#optional-integrations">Optional integrations</a><a href="#notion">Notion</a><a href="#obsidian">Obsidian</a><a href="#google-docs">Google Docs</a><a href="#slack">Slack</a><a href="#discord">Discord</a><a href="#microsoft-onenote">Microsoft OneNote</a><a href="#integration-requests">Integration requests</a><a href="#your-control">Your control</a><a href="#no-sale-of-personal-data">No sale of personal data</a><a href="#contact">Contact</a></nav><article class="legal"><section id="local-recordings-and-transcription">
+</nav></header><main id="main"><section class="page-hero wrap legal-hero"><p class="eyebrow">PRIVACY POLICY</p><h1>Your privacy, explained.</h1><p class="lede">Understand what stays on your device, what uses the cloud, and the choices you control.</p><p class="updated">Last updated October 7, 2026</p></section><div class="legal-layout wrap"><nav class="contents" aria-label="Privacy Policy contents"><p>ON THIS PAGE</p><a href="#apple-login-and-account-data">Apple login and account data</a><a href="#your-account-and-recording-library">Your account and recording library</a><a href="#account-deletion">Account deletion</a><a href="#retained-accounting-records">Retained accounting records</a><a href="#local-recordings-and-transcription">Local recordings and transcription</a><a href="#speaker-identification">Speaker identification</a><a href="#high-accuracy-cloud-transcription">High-Accuracy Cloud transcription</a><a href="#cloud-ai-features">Cloud AI features</a><a href="#usage-limits-and-subscriptions">Usage limits and subscriptions</a><a href="#icloud-sync">iCloud Sync</a><a href="#talkbrief-web">TalkBrief Web</a><a href="#icloud-sharing">iCloud sharing</a><a href="#reminders-and-exports">Reminders and exports</a><a href="#optional-integrations">Optional integrations</a><a href="#notion">Notion</a><a href="#obsidian">Obsidian</a><a href="#google-docs">Google Docs</a><a href="#slack">Slack</a><a href="#discord">Discord</a><a href="#microsoft-onenote">Microsoft OneNote</a><a href="#integration-requests">Integration requests</a><a href="#your-control">Your control</a><a href="#no-sale-of-personal-data">No sale of personal data</a><a href="#contact">Contact</a></nav><article class="legal"><section id="apple-login-and-account-data">
+          <h2>Apple login and account data</h2>
+          <p>In TalkBrief 2.18.0 and later, including its TestFlight beta, Sign in with Apple is required to access TalkBrief; Privacy Policy and Support remain available before login. AWS Cognito in Singapore receives your Apple identifier and the email address Apple shares, including a private relay address if chosen. Cloudflare stores verified Cognito identifiers, a random TalkBrief account ID, device authentication identifiers, subscription associations, and AI usage records to authenticate access, enforce limits, and prevent abuse. Session credentials stay in this device's Keychain without iCloud sync. Cloudflare and AI providers may process requests outside your country.</p>
+        </section><section id="your-account-and-recording-library">
+          <h2>Your account and recording library</h2>
+          <p>Your TalkBrief account, App Store subscription, and system iCloud account are separate. Signing in, signing out, or deleting your TalkBrief account does not move or delete local or private iCloud recordings and notes. Signing out closes access to app pages. Manage recording and iCloud deletion separately in the app.</p>
+        </section><section id="account-deletion">
+          <h2>Account deletion</h2>
+          <p>Use Profile &gt; Account &gt; Delete Account after stopping and saving any active recording. Fresh Apple authentication verifies your identity and revokes Apple authorization before deletion is accepted. TalkBrief then disables account access, deletes the Cognito user, and removes account usage and subscription associations. A pending notice means cleanup is still underway; the app retries and checks status when reopened. Stalled requests receive manual review after 7 days; the completion target is within 30 days of acceptance. Contact <a href="mailto:talkbrief.ai@gmail.com">talkbrief.ai@gmail.com</a> for help. Limited accounting records remain as described below.</p>
+        </section><section id="retained-accounting-records">
+          <h2>Retained accounting records</h2>
+          <p>Completed deletion records are retained for 12 months after completion. A disabled random account ID is retained for at least 12 months after deletion, then removed once dependent device migration records expire. Legacy device usage counters are retained for a rolling 13 months. Subscription transcription usage is retained for 24 months after the subscription's last expiry or refund to preserve consumed quota. In-flight account accounting may take up to 24 hours to clear; old identity mappings are removed 30 minutes after confirmed Cognito deletion. Historical subscription records without a verified expiry or refund date remain protected while that date is reconciled. Random identifiers and retained records remain protected personal data.</p>
+        </section><section id="local-recordings-and-transcription">
           <h2>Local recordings and transcription</h2>
           <p>
             Recordings, imported audio or video, transcripts, summaries, tags, favorites, generated tasks, and
@@ -27,31 +39,18 @@
           </p>
         </section><section id="high-accuracy-cloud-transcription">
           <h2>High-Accuracy Cloud transcription</h2>
-          <p>
-            Pro users may explicitly choose High-Accuracy Cloud transcription. TalkBrief uploads the selected
-            recording to TalkBrief Cloud, using Cloudflare infrastructure and currently Google Cloud Speech-to-Text with temporary Google Cloud Storage, to produce a transcript, word timings, and speaker labels. Temporary audio
-            is deleted from TalkBrief Cloud after processing or failure cleanup, and the provider-uploaded file is
-            deleted after transcription. The normalized transcription result is deleted from TalkBrief Cloud after
-            the app confirms download. TalkBrief keeps only minimal task, entitlement, and usage metadata needed for
-            quota, reliability, and abuse prevention; it does not keep a permanent server-side audio archive.
-          </p>
+          <p>High-Accuracy Cloud transcription uploads selected audio to temporary Cloudflare R2 storage and a transcription provider, currently Google Cloud Speech-to-Text; configured alternatives include Gemini and Speechmatics. Cleanup attempts remove uploaded audio after processing or failure. Temporary results are removed when the app acknowledges download. Interrupted processing, failed cleanup, or an absent acknowledgement can delay removal. Task, entitlement, and usage metadata are retained separately from audio. Cloud transcription involves temporary cloud storage.</p>
         </section><section id="cloud-ai-features">
           <h2>Cloud AI features</h2>
           <p>
             Summaries, Ask, and AI translation use cloud AI only when you request those features. TalkBrief sends
             the relevant transcript, summary, custom template instructions, question, selected source snippets,
-            and output language to TalkBrief’s Cloudflare service and its AI provider (currently DeepSeek for summaries and Ask) so they can generate
+            and output language to the TalkBrief Cloudflare Worker and AI service provider so they can generate
             the requested response.
           </p>
         </section><section id="usage-limits-and-subscriptions">
           <h2>Usage limits and subscriptions</h2>
-          <p>
-            TalkBrief uses Apple's in-app purchase system for subscriptions. Apple processes purchase and payment
-            information. To unlock Pro features and enforce free monthly AI limits, TalkBrief may send an
-            App Store transaction ID, App Store environment, and feature usage information to the TalkBrief
-            Cloudflare service. The service stores entitlement status, cloud transcription task state, and monthly
-            usage in D1.
-          </p>
+          <p>Apple handles payment and billing. TalkBrief verifies App Store transaction information, including an App Store transaction ID, subscription identifiers, environment, expiry or refund status, and associates entitlements and feature usage with your account in Cloudflare D1. Signing out or deleting a TalkBrief account does not cancel an Apple subscription; manage cancellation in App Store settings. After deletion and registration of a new account, use Restore Purchases explicitly to reconnect an eligible subscription. Restoring preserves consumed transcription quota and does not reset it.</p>
         </section><section id="icloud-sync">
           <h2>iCloud Sync</h2>
           <p>
@@ -80,7 +79,7 @@
         </section><section id="optional-integrations">
           <h2>Optional integrations</h2>
           <p>Notion, Obsidian, Google Docs, Slack, Discord, and Microsoft OneNote are optional export destinations. Content is sent only when you choose
-            to export. None requires a new TalkBrief account. Notion uses an authorized workspace connection;
+            to export. These destinations use their own connections; they do not create an additional TalkBrief account. Notion uses an authorized workspace connection;
             Obsidian uses a local app link or a Markdown file you save; Google Docs uses a device-held Google connection;
             Slack and Discord each use a connection to one channel you select; OneNote uses a device-held Microsoft connection.</p>
           <p>Notion and Obsidian are available in TalkBrief 2.8.0 and later; Google Docs and Slack are available in
